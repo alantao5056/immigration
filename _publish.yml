@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 8256b6d5-ec1a-4b62-a64b-4286b0e7cb3a
+      url: 'https://alienjao.quarto.pub/immigration'
