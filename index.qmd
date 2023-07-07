@@ -9,10 +9,26 @@ execute:
 ```{r}
 library(tidyverse)
 library(primer.data)
+library(rstanarm)
 ```
 
 
 ```{r}
 trains
+```
+## Question
+What is the expected immigration attitude of someone who is liberal and starts with an attitude of 6
+
+```{r}
+x = trains |>
+  select(att_end, liberal, att_start)
+```
+
+```{r}
+fit_obj = stan_glm(data = x,
+         formula = att_end ~ liberal + att_start,
+         family = gaussian,
+         refresh = 0,
+         seed = 9)
 ```
 
