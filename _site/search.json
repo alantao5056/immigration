@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "immigration",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "# A tibble: 115 × 14\n   treatment att_start att_end gender race  liberal party       age income line \n   &lt;fct&gt;         &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt; &lt;lgl&gt;   &lt;chr&gt;     &lt;int&gt;  &lt;dbl&gt; &lt;chr&gt;\n 1 Treated          11      11 Female White FALSE   Democrat     31 135000 Fram…\n 2 Treated           9      10 Female White FALSE   Republic…    34 105000 Fram…\n 3 Treated           3       5 Male   White TRUE    Democrat     63 135000 Fram…\n 4 Treated          11      11 Male   White FALSE   Democrat     45 300000 Fram…\n 5 Control           8       5 Male   White TRUE    Democrat     55 135000 Fram…\n 6 Treated          13      13 Female White FALSE   Democrat     37  87500 Fram…\n 7 Control          13      13 Female White FALSE   Republic…    53  87500 Fram…\n 8 Treated          10      11 Male   White FALSE   Democrat     36 135000 Fram…\n 9 Control          12      12 Female White FALSE   Democrat     54 105000 Fram…\n10 Treated           9      10 Male   White FALSE   Republic…    42 135000 Fram…\n# ℹ 105 more rows\n# ℹ 4 more variables: station &lt;chr&gt;, hisp_perc &lt;dbl&gt;, ideology_start &lt;int&gt;,\n#   ideology_end &lt;int&gt;"
   }
 ]

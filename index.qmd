@@ -1,11 +1,18 @@
 ---
 title: "immigration"
+execute:
+  echo: false
+  message: false
+  warning: false
 ---
 
-This is a Quarto website.
+```{r}
+library(tidyverse)
+library(primer.data)
+```
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1
+trains
 ```
+
